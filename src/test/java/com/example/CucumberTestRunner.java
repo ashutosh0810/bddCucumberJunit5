@@ -12,5 +12,5 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 @SelectClasspathResource("features")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.example")
 
-public class RunnerTest {
+public class CucumberTestRunner {
 }
